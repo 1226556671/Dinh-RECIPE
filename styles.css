@@ -647,15 +647,16 @@ section {
     header menu li {
       padding-bottom: 2rem;
     }
-    .flex {
-      display: flex;
-      background-color: var(--gray);
-      width: 2px;
-      height: 2px;
+    #street-tacos {
+        display: flex;
+        flex-direction: row;
+        padding-left: 131px;
     }
-    .flex img {
-        width: 2px;
-        height: 2px;
+
+    #street-tacos p {
+        margin: 0;
+        padding-top: 5px;
+        line-height: 1.5;
     }
     #directions ol {
       justify-content: flex-start;
