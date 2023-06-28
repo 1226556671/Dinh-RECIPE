@@ -685,62 +685,62 @@ section {
       height: 416px;
     }
     #sides img {
-      width: 350%;
-      grid-row-start: 1;
+        width: 350%;
+        grid-row-start: 1;
+      }
+      #sides h4 {
+        grid-row-start: 2;
+        grid-column-start: 1;
+        padding-top: 1rem;
+      }
+      #sides p {
+        grid-row-start: 3;
+        grid-column-start: 1;
+        padding-top: 1rem;
+        grid-column-end: 4;
+      }
+      #sides section p:nth-of-type(2) {
+        grid-row-start: 4;
+        grid-column-start: 1;
+        padding-top: 1rem;
+      }
+      .stars {
+        grid-row-start: 4;
+        grid-column-start: 2;
+        padding-top: 1rem;
+      }
+      #main-nav {
+        margin-top: 0;
+        width: 70%;
+        margin: 0 auto;
+        padding: 1rem 0;
+      }
+      body {
+        position: relative;
+      }
+      .logo {
+        height: 136.8px;
+        width: 6%;
+      }
+      .avatar {
+        height: 136.8px;
+        width: 6%;
+      }
+      #search {
+        top: 3%;
+        right: 0;
+        left: 0;
+      }
+      footer img {
+        width: 40%;
+      }
+      .flex-it-reverse {
+        justify-content: space-between;
+      }
+      footer {
+        padding: 2rem 0rem 2rem 0rem;
+        align-items: flex-start;
+        flex-direction: row-reverse;
+        justify-content: start;
+      }
     }
-    #sides h4 {
-      grid-row-start: 2;
-      grid-column-start: 1;
-      padding-top: 1rem;
-    }
-    #sides p {
-      grid-row-start: 3;
-      grid-column-start: 1;
-      padding-top: 1rem;
-      grid-column-end: 4;
-    }
-    #sides section p:nth-of-type(2) {
-      grid-row-start: 4;
-      grid-column-start: 1;
-      padding-top: 1rem;
-    }
-    .stars {
-      grid-row-start: 4;
-      grid-column-start: 2;
-      padding-top: 1rem;
-    }
-    #main-nav {
-      margin-top: 0;
-      width: 70%;
-      margin: 0 auto;
-      padding: 1rem 0;
-    }
-    body {
-      position: relative;
-    }
-    .logo {
-      height: 136.8px;
-      width: 6%;
-    }
-    .avatar {
-      height: 136.8px;
-      width: 6%;
-    }
-    #search {
-      top: 3%;
-      right: 0;
-      left: 0;
-    }
-    footer img {
-      width: 40%;
-    }
-    .flex-it-reverse {
-      justify-content: space-between;
-    }
-    footer {
-      padding: 2rem 0rem 2rem 0rem;
-      align-items: flex-start;
-      flex-direction: row-reverse;
-      justify-content: start;
-    }
-  }
