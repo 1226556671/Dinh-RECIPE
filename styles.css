@@ -652,7 +652,8 @@ section {
       background-color: var(--gray);
     }
     .flex img {
-      margin-left: 5%;
+        max-width: 2px;
+        max-height: 2px;
     }
     #directions ol {
       justify-content: flex-start;
