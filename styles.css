@@ -650,10 +650,12 @@ section {
     .flex {
       display: flex;
       background-color: var(--gray);
+      width: 2px;
+      height: 2px;
     }
     .flex img {
-        max-width: 2px;
-        max-height: 2px;
+        width: 2px;
+        height: 2px;
     }
     #directions ol {
       justify-content: flex-start;
